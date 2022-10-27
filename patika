@@ -1,0 +1,80 @@
+import java.util.Scanner;
+
+  class Main {
+
+  public static void main( String[] args) {
+  
+    //Matematik, Fizik, Türkçe, Kimya, Müzik
+    double mat,fizik,turkce,kimya,muzik;
+    double ort;
+    
+    
+
+    
+    
+     
+
+    
+    Scanner input1= new Scanner(System.in ) ;
+    System.out.println(" MATEMETİK NOTUNUZU GİRİNİZ :");
+    
+    mat = input1.nextDouble();
+
+
+    Scanner input2= new Scanner(System.in ) ;
+    System.out.println(" Fizik NOTUNUZU GİRİNİZ :");
+    fizik = input2.nextDouble();
+     Scanner input3= new Scanner(System.in ) ;
+    System.out.println(" Türkçe NOTUNUZU GİRİNİZ :");
+    turkce = input3.nextDouble();
+     Scanner input4= new Scanner(System.in ) ;
+    System.out.println(" kimya NOTUNUZU GİRİNİZ :");
+    kimya = input4.nextDouble();
+     Scanner input5= new Scanner(System.in ) ;
+    System.out.println(" müzik NOTUNUZU GİRİNİZ :");
+    muzik = input5.nextDouble();
+   
+     
+    
+    
+    
+    
+    ort= (mat+fizik+turkce+kimya+ muzik)/5;
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    if ( ort>55){
+       System.out.println("Tebrikler Geçtiniz");
+         
+       }else{ 
+      System.out.println("Seneye Görüşmek üzere");
+      
+      
+       
+    
+    
+    
+   
+    
+      
+  
+        }
+  }
+  }
+
+    
